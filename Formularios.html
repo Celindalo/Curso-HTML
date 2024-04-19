@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <H1>Perfil de usuario</H1>
+        <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre<br>
+                <input type="text" name="nombre" value="" /><br/>
+            Apellidos <br/>
+                <input type="text" name="apellidos" value="" /><br/>
+            DNI <br/>
+                <input type="text" name="DNI" value="" size="10" maxlength="9" /><br>
+            E-mail <br>
+                <input type="email"pattern=".+@example\.com"/><br>
+        </fieldset><br>
+        <input type="checkbox" value="Recibir notificaciones"> Recibir notificaciones<br>
+        Sexo<br>
+        <input type="radio" name="gender" value="male" checked>Hombre<br>
+        <input type="radio" name="gender" value="female" checked>Mujer<br>
+        Adjuntar foto <input type="file" accept="image/jpeg"> <br>
+
+
+
+       <br><input type="submit" value="Enviar">  <input type="submit" value="Reset">
+
+        </form>
+    
+</body>
+</html>
